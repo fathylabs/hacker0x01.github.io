@@ -1,0 +1,35 @@
+# Site settings
+title: "محمد فتحي"
+description: "موقع محمد فتحي الشخصي"
+baseurl: ""
+url: "https://secfathy.github.io"
+
+# Author information
+author:
+  name: "محمد فتحي"
+  email: "mohammed@example.com"
+  youtube: "https://www.youtube.com/@your-channel"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Language and direction
+lang: ar
+direction: rtl
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

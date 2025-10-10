@@ -1,0 +1,228 @@
+---
+layout: default
+title: الصفحة الرئيسية
+description: موقع محمد فتحي الشخصي - خبير في التكنولوجيا والاستشارات
+---
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">مرحباً، أنا {{ site.author.name }}</h1>
+                <p class="hero-subtitle">خبير في التكنولوجيا والاستشارات التقنية</p>
+                <p class="hero-description">
+                    أساعد الأفراد والشركات في تطوير حلولهم التقنية وتحقيق أهدافهم الرقمية من خلال خبرتي الواسعة في مجال التكنولوجيا.
+                </p>
+                <div class="hero-buttons">
+                    <a href="{{ site.author.youtube }}" class="btn btn-primary" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                        شاهد فيديوهاتي على يوتيوب
+                    </a>
+                    <a href="#consultation" class="btn btn-secondary">
+                        احجز استشارة مجانية
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="{{ '/assets/images/mohammed-fathy.jpg' | relative_url }}" alt="{{ site.author.name }}" class="profile-image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about" class="about-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">عني</h2>
+            <p class="section-subtitle">خبرتي ومؤهلاتي في مجال التكنولوجيا</p>
+        </div>
+        
+        <div class="about-content">
+            <div class="experience-section">
+                <h3 class="subsection-title">
+                    <i class="fas fa-briefcase"></i>
+                    الخبرة المهنية
+                </h3>
+                <div class="experience-grid">
+                    <div class="experience-item">
+                        <div class="experience-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="experience-content">
+                            <h4>مطور برمجيات أول</h4>
+                            <p class="company">شركة التكنولوجيا المتقدمة</p>
+                            <p class="duration">2020 - حتى الآن</p>
+                            <p class="description">تطوير تطبيقات ويب متقدمة باستخدام أحدث التقنيات والأطر البرمجية.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="experience-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="experience-content">
+                            <h4>مستشار تقني</h4>
+                            <p class="company">العمل الحر</p>
+                            <p class="duration">2018 - حتى الآن</p>
+                            <p class="description">تقديم الاستشارات التقنية للشركات الناشئة والمتوسطة في مجال التحول الرقمي.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="experience-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="experience-content">
+                            <h4>مدرب تقني</h4>
+                            <p class="company">معهد التدريب التقني</p>
+                            <p class="duration">2017 - 2020</p>
+                            <p class="description">تدريب المطورين الجدد على أساسيات البرمجة وتطوير المواقع الإلكترونية.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications-section">
+                <h3 class="subsection-title">
+                    <i class="fas fa-certificate"></i>
+                    الشهادات والمؤهلات
+                </h3>
+                <div class="certifications-grid">
+                    <div class="certification-item">
+                        <div class="cert-icon">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h4>AWS Solutions Architect</h4>
+                            <p class="cert-issuer">Amazon Web Services</p>
+                            <p class="cert-year">2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <div class="cert-icon">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h4>Google Cloud Professional</h4>
+                            <p class="cert-issuer">Google Cloud</p>
+                            <p class="cert-year">2022</p>
+                        </div>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <div class="cert-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h4>Certified Ethical Hacker</h4>
+                            <p class="cert-issuer">EC-Council</p>
+                            <p class="cert-year">2021</p>
+                        </div>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <div class="cert-icon">
+                            <i class="fab fa-microsoft"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h4>Microsoft Azure Developer</h4>
+                            <p class="cert-issuer">Microsoft</p>
+                            <p class="cert-year">2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Consultation Section -->
+<section id="consultation" class="consultation-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">احجز استشارة</h2>
+            <p class="section-subtitle">احصل على استشارة تقنية مخصصة لاحتياجاتك</p>
+        </div>
+        
+        <div class="consultation-content">
+            <div class="consultation-info">
+                <h3>ماذا ستحصل عليه؟</h3>
+                <ul class="benefits-list">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        تحليل شامل لمشروعك التقني
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        خطة عمل واضحة ومفصلة
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        توصيات بأفضل التقنيات المناسبة
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        متابعة مجانية لمدة أسبوعين
+                    </li>
+                </ul>
+                
+                <div class="consultation-types">
+                    <div class="consultation-type">
+                        <h4>استشارة سريعة</h4>
+                        <p class="price">مجانية</p>
+                        <p class="duration">30 دقيقة</p>
+                        <p class="description">مناقشة سريعة لفكرتك والحصول على نصائح أولية</p>
+                    </div>
+                    
+                    <div class="consultation-type featured">
+                        <h4>استشارة شاملة</h4>
+                        <p class="price">$99</p>
+                        <p class="duration">90 دقيقة</p>
+                        <p class="description">تحليل مفصل مع خطة عمل كاملة وتوصيات تقنية</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="consultation-form">
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">الاسم الكامل</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">البريد الإلكتروني</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">رقم الهاتف</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="consultation-type">نوع الاستشارة</label>
+                        <select id="consultation-type" name="consultation-type" required>
+                            <option value="">اختر نوع الاستشارة</option>
+                            <option value="quick">استشارة سريعة (مجانية)</option>
+                            <option value="comprehensive">استشارة شاملة ($99)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="project-description">وصف المشروع أو الفكرة</label>
+                        <textarea id="project-description" name="project-description" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-calendar-check"></i>
+                        احجز الاستشارة الآن
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
