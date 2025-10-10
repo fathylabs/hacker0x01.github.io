@@ -28,11 +28,15 @@
                     <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
                 </div>
                 <div class="nav-menu">
-                    <a href="#about" class="nav-link">عني</a>
-                    <a href="#consultation" class="nav-link">احجز استشارة</a>
+                    <a href="#about" class="nav-link" data-translate="nav-about">عني</a>
+                    <a href="#consultation" class="nav-link" data-translate="nav-consultation">احجز استشارة</a>
                     <a href="{{ site.author.youtube }}" class="nav-link" target="_blank">
-                        <i class="fab fa-youtube"></i> قناتي
+                        <i class="fab fa-youtube"></i> <span data-translate="nav-youtube">قناتي</span>
                     </a>
+                    <button class="language-switch" id="languageSwitch">
+                        <i class="fas fa-globe"></i>
+                        <span class="lang-text">EN</span>
+                    </button>
                 </div>
             </div>
         </nav>
@@ -47,18 +51,18 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>{{ site.title }}</h3>
-                    <p>{{ site.description }}</p>
+                    <p data-translate="site-description">{{ site.description }}</p>
                 </div>
                 <div class="footer-section">
-                    <h4>روابط مهمة</h4>
+                    <h4 data-translate="footer-links">روابط مهمة</h4>
                     <ul>
-                        <li><a href="#about">عني</a></li>
-                        <li><a href="#consultation">احجز استشارة</a></li>
-                        <li><a href="{{ site.author.youtube }}" target="_blank">قناتي على يوتيوب</a></li>
+                        <li><a href="#about" data-translate="nav-about">عني</a></li>
+                        <li><a href="#consultation" data-translate="nav-consultation">احجز استشارة</a></li>
+                        <li><a href="{{ site.author.youtube }}" target="_blank" data-translate="footer-youtube">قناتي على يوتيوب</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>تواصل معي</h4>
+                    <h4 data-translate="footer-contact">تواصل معي</h4>
                     <div class="social-links">
                         <a href="{{ site.author.youtube }}" target="_blank" class="social-link">
                             <i class="fab fa-youtube"></i>
@@ -70,7 +74,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. جميع الحقوق محفوظة.</p>
+                <p data-translate="footer-copyright">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. جميع الحقوق محفوظة.</p>
             </div>
         </div>
     </footer>

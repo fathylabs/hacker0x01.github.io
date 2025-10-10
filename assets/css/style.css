@@ -105,6 +105,37 @@ p {
     z-index: 1000;
 }
 
+/* Language Switch Button */
+.language-switch {
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: var(--transition);
+    margin-right: 1rem;
+}
+
+.language-switch:hover {
+    background-color: #2980b9;
+    transform: translateY(-1px);
+}
+
+.language-switch i {
+    font-size: 1rem;
+}
+
+.lang-text {
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
 .navbar {
     padding: 1rem 0;
 }
@@ -634,4 +665,58 @@ section {
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
+}
+
+/* Language Switching Styles */
+body.lang-en {
+    direction: ltr;
+    text-align: left;
+}
+
+body.lang-en .navbar .container {
+    flex-direction: row;
+}
+
+body.lang-en .nav-menu {
+    flex-direction: row;
+}
+
+body.lang-en .hero-content {
+    grid-template-columns: 1fr 2fr;
+}
+
+body.lang-en .hero-text {
+    order: 1;
+}
+
+body.lang-en .hero-image {
+    order: 2;
+}
+
+body.lang-en .experience-item {
+    flex-direction: row;
+}
+
+body.lang-en .language-switch {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+/* Transition for language switching */
+* {
+    transition: direction 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    body.lang-en .hero-content {
+        grid-template-columns: 1fr;
+    }
+    
+    body.lang-en .hero-text {
+        order: 2;
+    }
+    
+    body.lang-en .hero-image {
+        order: 1;
+    }
 }
