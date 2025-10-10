@@ -42,7 +42,19 @@ const translations = {
         'form-quick-option': 'استشارة سريعة (مجانية)',
         'form-comprehensive-option': 'استشارة شاملة ($99)',
         'form-project-description': 'وصف المشروع أو الفكرة',
-        'form-submit-btn': 'احجز الاستشارة الآن'
+        'form-submit-btn': 'احجز الاستشارة الآن',
+        'social-stats-title': 'إحصائيات وسائل التواصل الاجتماعي',
+        'facebook-followers': 'متابع على فيسبوك',
+        'linkedin-connections': 'اتصال على لينكد إن',
+        'youtube-subscribers': 'مشترك على يوتيوب',
+        'featured-videos-title': 'فيديوهات مميزة من قناتي',
+        'video-1-title': 'أساسيات البرمجة للمبتدئين',
+        'video-1-desc': 'تعلم أساسيات البرمجة من الصفر',
+        'video-2-title': 'تطوير المواقع الحديثة',
+        'video-2-desc': 'كيفية بناء موقع ويب متجاوب',
+        'video-3-title': 'الأمن السيبراني للمطورين',
+        'video-3-desc': 'حماية تطبيقاتك من الثغرات الأمنية',
+        'view-all-videos': 'شاهد جميع الفيديوهات'
     },
     en: {
         'nav-about': 'About',
@@ -84,7 +96,19 @@ const translations = {
         'form-quick-option': 'Quick Consultation (Free)',
         'form-comprehensive-option': 'Comprehensive Consultation ($99)',
         'form-project-description': 'Project or Idea Description',
-        'form-submit-btn': 'Book Consultation Now'
+        'form-submit-btn': 'Book Consultation Now',
+        'social-stats-title': 'Social Media Statistics',
+        'facebook-followers': 'Facebook Followers',
+        'linkedin-connections': 'LinkedIn Connections',
+        'youtube-subscribers': 'YouTube Subscribers',
+        'featured-videos-title': 'Featured Videos from My Channel',
+        'video-1-title': 'Programming Basics for Beginners',
+        'video-1-desc': 'Learn programming fundamentals from scratch',
+        'video-2-title': 'Modern Web Development',
+        'video-2-desc': 'How to build a responsive website',
+        'video-3-title': 'Cybersecurity for Developers',
+        'video-3-desc': 'Protect your applications from security vulnerabilities',
+        'view-all-videos': 'View All Videos'
     }
 };
 
